@@ -26,7 +26,7 @@ public class Spring_boot_junit5_api_test {
 	 @DisplayName("/hello rest api test ")
 	 void testMessage() {
 		 
-		 String user = "Peter";
+		 String user = "Azure";
 		 URI targetUrl= UriComponentsBuilder.fromUriString("/hello")                             
 				    .queryParam("user", user)                               
 				    .build()                                                
